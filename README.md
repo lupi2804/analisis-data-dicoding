@@ -16,7 +16,7 @@ Sebelum menjalankan proyek ini, pastikan sistem Anda telah terinstall:
 
 ⚙️ Instalasi
 Clone repositori ini (jika menggunakan Git):
-git clone https://github.com/user/proyek-analisis-data.git
+(https://github.com/lupi2804/analisis-data-dicoding.git)
 cd proyek-analisis-data
 
 Buat virtual environment (opsional tetapi disarankan):
