@@ -33,7 +33,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 🚀 Cara Menjalankan
 Jalankan Jupyter Notebook:
 jupyter notebook
-Buka file Proyek_Analisis_Data.ipynb dan jalankan sel satu per satu.
+Buka file notebook.ipynb dan jalankan sel satu per satu.
 
 📊 Hasil Analisis
 Stasiun dengan polutan tertinggi
