@@ -1,6 +1,3 @@
-Berikut adalah deskripsi proyek **Analisis Data: Air Quality** yang disusun dengan format serupa dengan yang Anda inginkan.  
-
----
 
 # **Proyek Analisis Data: Air Quality**  
 
@@ -77,6 +74,15 @@ Buka file **`notebook.ipynb`** dan jalankan sel satu per satu.
 ## 🔍 **Catatan**  
 ⚠ **Pastikan dataset yang diperlukan telah tersedia di folder `data/`.**  
 ⚠ **Jika ada error pada package, pastikan versi yang digunakan kompatibel dengan Python yang Anda pakai.**  
+
+---
+## 📬 **Kontak & Kontribusi**  
+Jika Anda memiliki pertanyaan atau ingin berkontribusi dalam proyek ini, silakan hubungi saya melalui:  
+
+📌 **LinkedIn/GitHub:** [Silvi Dian Pramana](https://github.com/lupi2804)  
+📌 **Email:** silvidianpramana@gmail.com  
+
+Anda juga dapat mengajukan **pull request** jika ingin menambahkan fitur atau memperbaiki kode dalam proyek ini. 🚀
 
 ---
 
