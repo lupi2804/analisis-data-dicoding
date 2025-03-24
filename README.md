@@ -1,89 +1,78 @@
+```markdown
+# Analisis Data Dicoding
 
-# **Proyek Analisis Data: Air Quality**  
+Proyek ini merupakan analisis data menggunakan berbagai teknik seperti RFM Analysis, Geospatial Analysis, dan Clustering. Hasil analisis divisualisasikan dalam dashboard interaktif menggunakan Streamlit.
 
-## 📌 **Deskripsi**  
-Proyek ini bertujuan untuk menganalisis kualitas udara berdasarkan berbagai polutan seperti **PM2.5, PM10, SO2, NO2, CO, dan O3**. Analisis mencakup eksplorasi data, visualisasi tren polutan, serta korelasi antar polutan untuk memahami faktor-faktor yang memengaruhi kualitas udara.  
+## Fitur
+1. RFM Analysis untuk segmentasi pelanggan.
+2. Geospatial Analysis untuk visualisasi data geografis.
+3. Clustering untuk pengelompokan data tanpa machine learning.
+4. Deploy dashboard ke Streamlit Cloud.
 
----
+## Requirements
+Sebelum menjalankan proyek, pastikan perangkat Anda sudah terinstal:
+- Python 3.9 atau lebih baru
+- pip (Python Package Installer)
+- Git (untuk mengunduh repository)
 
-## 🛠 **Persyaratan**  
-Sebelum menjalankan proyek ini, pastikan sistem Anda telah terinstal:  
+## Cara Instalasi dan Menjalankan Dashboard
 
-✅ **Python 3.8+**  
-✅ **Jupyter Notebook atau Jupyter Lab**  
-✅ **Paket Python yang diperlukan:**  
-- `pandas`  
-- `numpy`  
-- `matplotlib`  
-- `seaborn`  
-- `scikit-learn` (opsional untuk analisis tambahan)  
+Ikuti langkah-langkah berikut untuk menjalankan proyek:
 
----
-
-## ⚙️ **Instalasi**  
-
-### **1️⃣ Clone repositori ini (jika menggunakan Git):**  
+### 1. Clone Repository
+Unduh repository ini ke perangkat Anda dengan perintah:
 ```bash
 git clone https://github.com/lupi2804/analisis-data-dicoding.git
-cd proyek-analisis-data
+```
+Masuk ke folder proyek:
+```bash
+cd analisis-data-dicoding
 ```
 
-### **2️⃣ Buat virtual environment (opsional tetapi disarankan):**  
+### 2. Buat Virtual Environment (Opsional)
+Disarankan menggunakan virtual environment untuk mengelola dependensi:
 ```bash
 python -m venv venv
+source venv/bin/activate  # Untuk Linux/MacOS
+venv\Scripts\activate     # Untuk Windows
 ```
 
-**Aktifkan virtual environment:**  
-- **Windows:**  
-  ```bash
-  venv\Scripts\activate
-  ```
-- **macOS/Linux:**  
-  ```bash
-  source venv/bin/activate
-  ```
-
-### **3️⃣ Install dependensi:**  
+### 3. Install Dependensi
+Install semua library yang dibutuhkan dengan perintah:
 ```bash
 pip install -r requirements.txt
 ```
-Jika tidak ada `requirements.txt`, instal paket secara manual:  
+
+### 4. Jalankan Dashboard
+Untuk menjalankan dashboard Streamlit, gunakan perintah:
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+streamlit run app.py
 ```
 
----
-
-## 🚀 **Cara Menjalankan**  
-
-### **1️⃣ Jalankan Jupyter Notebook:**  
-```bash
-jupyter notebook
+### 5. Akses Dashboard
+Buka browser Anda dan akses URL berikut:
 ```
-Buka file **`notebook.ipynb`** dan jalankan sel satu per satu.  
+http://localhost:8501
+```
+
+## Struktur Proyek
+- `app.py`: File utama untuk menjalankan dashboard Streamlit.
+- `data/`: Folder berisi dataset yang digunakan.
+- `notebooks/`: Notebook Jupyter untuk eksplorasi dan analisis awal.
+- `requirements.txt`: File berisi daftar library Python yang dibutuhkan.
+
+## Catatan
+- Pastikan dataset telah disiapkan di folder `data/` sebelum menjalankan dashboard.
+- Jika Anda menemui kendala, silakan buka issue di repository ini.
 
 ---
 
-## 📊 **Hasil Analisis**  
-✅ **Stasiun dengan polutan tertinggi**  
-✅ **Korelasi antar polutan**  
-✅ **Pola harian konsentrasi polutan**  
+## Lisensi
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
----
+```
 
-## 🔍 **Catatan**  
-⚠ **Pastikan dataset yang diperlukan telah tersedia di folder `data/`.**  
-⚠ **Jika ada error pada package, pastikan versi yang digunakan kompatibel dengan Python yang Anda pakai.**  
+### Penyesuaian
+Silakan sesuaikan nama file atau folder seperti `app.py`, `data/`, atau lainnya jika berbeda pada proyekmu. Tambahkan instruksi spesifik sesuai kebutuhan proyek.
 
----
-## 📬 **Kontak & Kontribusi**  
-Jika Anda memiliki pertanyaan atau ingin berkontribusi dalam proyek ini, silakan hubungi saya melalui:  
-
-📌 **LinkedIn/GitHub:** [Silvi Dian Pramana](https://github.com/lupi2804)  
-📌 **Email:** silvidianpramana@gmail.com  
-
-Anda juga dapat mengajukan **pull request** jika ingin menambahkan fitur atau memperbaiki kode dalam proyek ini. 🚀
-
----
-
-💡 **Jika ada pertanyaan atau ingin berkontribusi, silakan hubungi saya melalui LinkedIn/GitHub atau ajukan pull request!** 🚀
+Bila butuh revisi tambahan, beri tahu ya!
