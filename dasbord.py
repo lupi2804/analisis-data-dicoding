@@ -34,7 +34,7 @@ def create_pollutant_hourly_df(df):
 # Membaca dataset
 df = None
 try:
-    df = pd.read_csv('dataset.csv', encoding='utf-8')
+    df = pd.read_csv('dashboard/dataset_reduced.csv', encoding='utf-8')
 except FileNotFoundError:
     st.error("Dataset tidak ditemukan. Pastikan file 'dataset.csv' tersedia.")
 except pd.errors.EmptyDataError:
